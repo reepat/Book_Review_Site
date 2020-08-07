@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">	
+    <title>Create Review</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <main>
+        <div class="title create">Create Review</div>
+        <div class="nav">
+            <a class="navitem item1 highlighted" href="create.html">Create a Review</a>
+            <a class="navitem item2" href="dashboard.jsp">Your Reviews</a>
+            <a class="navitem item3" href="search.html">Search</a>
+            <a class="navitem item4" href="signout.html">Sign Out</a>
+        </div>
+        <div class="create content">
+            <div class="help">
+                On this page, you can create and submit a review to the site!
+            </div>
+            <div class="view">
+                <form class="review_form" id="book_review" name="book_review" method="post" action="submission.jsp">
+                    <fieldset>
+                        <legend>Create Review</legend>
+                        <label class="label_class">Book Title:</label> <br>
+                        <input type="text" id="book_title" name="book_title"> <br>
+                        <label class="label_class">Author:</label> <br>
+                        <input type="text" id="author_name" name="author_name"> <br>
+
+                        <label class="label_class">Rating:</label> <br>
+                        <input type="text" class="rate" name="rate"> <br>
+
+                        <label class="label_class">Review:</label><br>
+                        <input class="input_class" type="text" name="review"> <br>
+                        <input type="submit" value="Submit Review">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <main>
+        <div class="title view">
+            Book Reviews Website
+        </div>
+        <div class="index_content">
+            <div class="about_part">
+                <h2>About Us</h2>
+                <p>
+                    This book review site functions to allow readers of all genres to come together and share their thoughts on their favorite titles.
+                </p>
+            </div>
+            <div class="login_part">
+                <form id="login_form" action="signin.jsp" method="post">
+                    <fieldset>
+                        <legend>Login</legend>
+                        <label>Username:</label> <br>
+                        <input type="text" name="username" value="" size="30" maxlength="30"> <br>
+
+                        <label>Password:</label> <br>
+                        <input type="text" name="password" value="" size="30" maxlength="30"> <br>
+                        <input type="submit" value="Login"/>
+                    </fieldset>
+                </form>
+                <form id="register_form" action="signin.jsp" method="post">
+                    <fieldset>
+                        <legend>Login</legend>
+                        <label>Username:</label> <br>
+                        <input type="text" name="r_username" value="" size="30" maxlength="30"> <br>
+
+                        <label>Password:</label> <br>
+                        <input type="text" name="r_password" value="" size="30" maxlength="30"> <br>
+                        <button type="submit">Register</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
